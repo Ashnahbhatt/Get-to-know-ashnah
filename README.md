@@ -1,1 +1,106 @@
-# Get-to-know-ashnah
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ashnah Bhatt — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>Ashnah Bhatt</h1>
+        <p class="role">Digital Marketing Strategist · MSc Marketing & Management</p>
+      </div>
+      <nav class="social">
+        <a href="https://www.linkedin.com/in/ashnah-bhatt" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:AshnahBhatt1@gmail.com">Email</a>
+        <a href="https://github.com/Ashnahbhatt" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Hi — I’m Ashnah</h2>
+        <p>
+          I’m a digital marketing strategist with experience in market research, lead generation, CRM,
+          and technical/B2B sales. I focus on turning data-driven insights into campaigns that grow revenue
+          and customer relationships. (Summary paraphrased from your CV). :contentReference[oaicite:1]{index=1}
+        </p>
+
+        <div class="cta-row">
+          <!-- Download points to the PDF stored in the repo root -->
+          <a class="btn" href="Ashnah_JohnBhatt_CV.pdf" download>📄 Download CV</a>
+          <a class="btn-outline" href="mailto:AshnahBhatt1@gmail.com?subject=Hello%20Ashnah">✉️ Email me</a>
+        </div>
+
+        <div class="quick-links">
+          <a href="#experience">Experience</a> ·
+          <a href="#projects">Projects</a> ·
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- Replace with your headshot: /assets/headshot.jpg -->
+        <div class="avatar" aria-hidden="true">AB</div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h3>Experience</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Product Screener — Ingram Micro</h4>
+          <p>02/2025 — current — Executed product screening and cross-functional ops improvements.</p>
+        </article>
+
+        <article class="card">
+          <h4>Student Ambassador / Postgrad Trustee — UEA</h4>
+          <p>12/2023 — 09/2024 — Student liaison, events (Diwali, Christmas), featured on local media.</p>
+        </article>
+
+        <article class="card">
+          <h4>Channel Sales Manager — Lodha Macrotech</h4>
+          <p>04/2022 — 08/2023 — Led teams, B2B/B2C, contributed to major project revenue growth.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Project name</h4>
+          <p>Short description. Link to repo or live demo.</p>
+          <a href="#" class="small-link">View on GitHub</a>
+        </article>
+        <!-- Duplicate cards for each project -->
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h3>Education</h3>
+      <p>MSc Marketing & Management — University of East Anglia (09/2023–09/2024)</p>
+      <p>B.A. Management Studies (Marketing) — Wilson College, Mumbai (2019–2022)</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:AshnahBhatt1@gmail.com">AshnahBhatt1@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ashnah-bhatt" target="_blank">ashnah-bhatt</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Ashnah Bhatt · Built with ❤️</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
