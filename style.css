@@ -162,6 +162,14 @@ h1, h2, h3 {
 }
 
 /* ===== Skills ===== */
+
+.skills-section .skills-heading {
+    padding: 20px 0;
+    text-align: center;
+}
+.skills-section .skills-heading h2 {
+    font-size: 24px;
+}
 .skill {
   margin-bottom: 20px;
 }
